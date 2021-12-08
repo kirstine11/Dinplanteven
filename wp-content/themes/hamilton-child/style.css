@@ -11,8 +11,16 @@ Updated: 2021-12-07 11:51:10
 
 */
 
-/* body {
-  background-color: blue;
-} */
+/* Overskrifter fjernet  */
+.title {
+  display: none;
+}
+
+/* Navigationsmenu  */
 
 
+
+/* Forside  */
+.page-id-22 .is-style-outline .wp-block-button__link{
+  padding: 11px 22px 11px;
+}
