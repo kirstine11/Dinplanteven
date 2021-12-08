@@ -44,14 +44,27 @@ a {
 }
 
 /* Forside  */
+
+.page-id-22 #site-content {
+  background-color: #f7f4f2;  
+  }
+
 .page-id-22 .is-style-outline .wp-block-button__link {
   padding: 11px 22px 11px;
+  font-weight: 500;
+  width: 150px;
+}
+
+.page-id-22 .is-style-outline .wp-block-button__link:hover {
+  background-color: #D3CAD6;
 }
 
 .page-id-22 .entry-content .alignfull {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+
 
 /* Vores udvalg */
 .page-id-24 #site-content {
