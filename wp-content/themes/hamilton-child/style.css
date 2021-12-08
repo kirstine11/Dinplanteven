@@ -45,7 +45,7 @@ a {
   padding: 11px 22px 11px;
 }
 
-/* Shop */
+/* Vores udvalg */
 .page-id-24 #site-content {
   background-color: #f7f4f2;
   padding: 30px;
@@ -61,3 +61,9 @@ a {
   border-style: inherit;
   border-color: yellow;
 } */
+
+/* Bæredygtighed */
+.page-id-26 #site-content {
+  background-color: #f7f4f2;
+  padding: 30px;
+}
