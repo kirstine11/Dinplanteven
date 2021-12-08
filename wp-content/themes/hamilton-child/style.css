@@ -41,7 +41,7 @@ a {
   text-decoration: none;
 }
 
-.alt-nav{
+.alt-nav {
   color: white;
 }
 
@@ -50,9 +50,9 @@ a {
   padding: 11px 22px 11px;
 }
 
-.page-id-22 .entry-content .alignfull{
-margin-top: 0;
-margin-bottom: 0;
+.page-id-22 .entry-content .alignfull {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Vores udvalg */
@@ -66,21 +66,20 @@ margin-bottom: 0;
   border-color: #356556;
   background-color: #f7f4f2;
 }
-/* .page-id-24 .wp-block-button__link {
-  background-color: white;
-  border-style: inherit;
-  border-color: yellow;
-} */
+.page-id-24
+  .wc-block-grid__product-add-to-cart.wp-block-button
+  .wp-block-button__link {
+  font-size: 15px;
+}
 
 /* Bæredygtighed */
 .page-id-26 #site-content {
   background-color: #f7f4f2;
 }
 
-
-@media only screen and (min-width: 1500px){
-  .entry-content .alignfull{
-   padding-left: 200px;
+@media only screen and (min-width: 1500px) {
+  .entry-content .alignfull {
+    padding-left: 200px;
     padding-right: 200px;
   }
 }
