@@ -11,6 +11,10 @@ Updated: 2021-12-07 11:51:10
 
 */
 
+body {
+  background-color: #123627;
+}
+
 /* Overskrifter fjernet  */
 .title {
   display: none;
@@ -40,3 +44,20 @@ a {
 .page-id-22 .is-style-outline .wp-block-button__link {
   padding: 11px 22px 11px;
 }
+
+/* Shop */
+.page-id-24 #site-content {
+  background-color: #f7f4f2;
+  padding: 30px;
+}
+.page-id-24 .wc-block-components-product-button__button {
+  color: #356556;
+  border-style: solid;
+  border-color: #356556;
+  background-color: #f7f4f2;
+}
+/* .page-id-24 .wp-block-button__link {
+  background-color: white;
+  border-style: inherit;
+  border-color: yellow;
+} */
