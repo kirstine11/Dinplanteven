@@ -16,11 +16,27 @@ Updated: 2021-12-07 11:51:10
   display: none;
 }
 
+/* Typografi */
+
+p {
+  font-size: 1rem;
+}
+
+h3 {
+  color: white;
+}
+
 /* Navigationsmenu  */
 
+.wp-custom-logo .site-header {
+  padding: 0 0;
+}
 
+a {
+  text-decoration: none;
+}
 
 /* Forside  */
-.page-id-22 .is-style-outline .wp-block-button__link{
+.page-id-22 .is-style-outline .wp-block-button__link {
   padding: 11px 22px 11px;
 }
