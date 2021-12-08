@@ -21,7 +21,6 @@ body {
 }
 
 /* Typografi */
-
 p {
   font-size: 1rem;
 }
@@ -31,7 +30,6 @@ h3 {
 }
 
 /* Navigationsmenu  */
-
 .wp-custom-logo .site-header {
   padding: 12px 0;
   align-items: center;
@@ -77,6 +75,34 @@ a {
   background-color: #f7f4f2;
 }
 
+/* Om os */
+
+.page-id-11 #site-content {
+  background-color: #f7f4f2;
+}
+
+.page-id-11 .entry-content .alignfull {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.page-id-11 h3 {
+  color: black;
+}
+
+.page-id-11 .entry-content .alignwide {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.page-id-11 .wp-block-column:not(:first-child) {
+  margin-left: 0;
+}
+
+/* Kontakt  */
+.page-id-13 #site-content {
+  background-color: #cad2c5;
+}
 @media only screen and (min-width: 1500px) {
   .entry-content .alignfull {
     padding-left: 200px;
