@@ -64,6 +64,26 @@ a {
   margin-bottom: 0;
 }
 
+.page-id-22 input[type="text"] {
+  border: 1px solid white;
+}
+
+.page-id-22 input[type="email"]{
+  border: 1px solid white; 
+}
+
+.page-id-22 label{
+  color: white;
+}
+
+.page-id-22 [type="submit"] {
+background-color: transparent;
+border: 1px solid white;
+font-size: 15px;
+padding: 12px 24px 12px;
+}
+
+
 
 
 /* Vores udvalg */
