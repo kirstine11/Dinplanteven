@@ -43,6 +43,11 @@ a {
   color: white;
 }
 
+.site-header .custom-logo img{
+  width: 15rem;
+  height: 10rem;
+}
+
 /* Forside  */
 
 .page-id-22 #site-content {
