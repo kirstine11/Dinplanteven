@@ -144,18 +144,42 @@ padding: 12px 24px 12px;
 
 /* Footer  */
 
+.section-inner {
+  max-width: none;
+}
+
+.social {
+  display: flex;
+  align-self: center;
+  width: 6em;
+}
+
+.social img {
+  padding: 10px;
+}
+
 .site-footer {
   background-color: #D3CAD6;
   width: 100%;
+  padding: 0;
+}
+
+.site-footer a{
+  border-bottom: none;
 }
 
 .row {
   display: flex;
   flex-direction: column;
+  padding-top: 2em;
 }
 
 .column a {
   padding: 5px;
+}
+
+.flower{
+  align-self: center;
 }
 
 
@@ -163,6 +187,17 @@ padding: 12px 24px 12px;
   .row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .social {
+    width: 8em;
+  }
+  .row{
+    padding-top: 10px;
+  }
+
+  .column{
+    align-self: center;
   }
 }
 
