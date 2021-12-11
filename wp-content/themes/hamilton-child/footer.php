@@ -1,31 +1,30 @@
 </main>
 		
 		<footer class="site-footer section-inner">
+			
+<div class="row">
+    
+<div class="column">
+<a href=""><p>Politikker</p></a>
+<a href=""><p>Virksomhedsinformationer</p></a>
+<a href=""><p>Betaling- og retur</p></a>
+</div>
 
-        <div>        
-        <ul>
-         <li>Privatlivspolitik <a href="#privatlivspolitik"></a></li>
-         <li>Virksomhedsinformationer <a href="#virksomhedsinformationer"></a></li>
-         <li>Betaling- og retur <a href="#betaling"></a></li>
-          </ul>
-          </div>
-                                
-     <div>           
-     <a href="#privatlivspolitik"> Handelsbetingelser</a>
+<div class="column">
+<a href=""><p>Handelsbetingelser</p></a>
+<a href=""><p>Servicevilkår</p></a>
+<a href=""><p>Cookiepolitik</p></a>
+</div>
 
+<div class="social">
+<a href="#fb" class="facebook"><img src="https://kirstinekrogs.dk/kea/Dinplanteven/wp-content/uploads/2021/12/fb.svg" alt=""></a>
+<a href="#Insta" class="instagram"><img src="https://kirstinekrogs.dk/kea/Dinplanteven/wp-content/uploads/2021/12/Instagram.svg" alt=""></a>
+</div>
 
-     <li>Servicevilkår <a href="#privatlivspolitik"></a></li>
-     <li>Cookiepolitik <a href="#privatlivspolitik"></a></li>
-       </ul>
-      </div>
-                                 
-      <div>   
-      <a href="#insta"><img src="" alt="inst"></a>      
+</div>
 
-          </div>
-
-		</footer>
-	    
+		</footer><!-- footer -->
+		
 	    <?php wp_footer(); ?>
 	        
 	</body>
