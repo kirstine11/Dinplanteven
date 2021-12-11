@@ -141,9 +141,35 @@ padding: 12px 24px 12px;
 .page-id-13 #site-content {
   background-color: #cad2c5;
 }
+
+/* Footer  */
+
+.site-footer {
+  background-color: #D3CAD6;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.column a {
+  padding: 5px;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
 @media only screen and (min-width: 1500px) {
   .entry-content .alignfull {
     padding-left: 200px;
     padding-right: 200px;
   }
 }
+
