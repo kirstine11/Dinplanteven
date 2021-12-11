@@ -17,8 +17,12 @@
 </div>
 
 <div class="social">
-<a href="#fb" class="facebook"><img src="https://kirstinekrogs.dk/kea/Dinplanteven/wp-content/uploads/2021/12/fb.svg" alt=""></a>
-<a href="#Insta" class="instagram"><img src="https://kirstinekrogs.dk/kea/Dinplanteven/wp-content/uploads/2021/12/Instagram.svg" alt=""></a>
+<a href="#fb" class="facebook"><img src="https://kirstinekrogs.dk/kea/Dinplanteven/wp-content/uploads/2021/12/fb.svg" alt="fb ikon"></a>
+<a href="#Insta" class="instagram"><img src="https://kirstinekrogs.dk/kea/Dinplanteven/wp-content/uploads/2021/12/Instagram.svg" alt="insta ikon"></a>
+</div>
+
+<div class="flower">
+<img src="https://kirstinekrogs.dk/kea/Dinplanteven/wp-content/uploads/2021/12/flowers.svg" alt="blomst">
 </div>
 
 </div>
