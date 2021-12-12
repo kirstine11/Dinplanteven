@@ -43,7 +43,7 @@ a {
   color: white;
 }
 
-.site-header .custom-logo img{
+.site-header .custom-logo img {
   width: 15rem;
   height: 10rem;
 }
@@ -51,8 +51,8 @@ a {
 /* Forside  */
 
 .page-id-22 #site-content {
-  background-color: #f7f4f2;  
-  }
+  background-color: #f7f4f2;
+}
 
 .page-id-22 .is-style-outline .wp-block-button__link {
   padding: 11px 22px 11px;
@@ -61,7 +61,7 @@ a {
 }
 
 .page-id-22 .is-style-outline .wp-block-button__link:hover {
-  background-color: #D3CAD6;
+  background-color: #d3cad6;
 }
 
 .page-id-22 .entry-content .alignfull {
@@ -73,23 +73,20 @@ a {
   border: 1px solid white;
 }
 
-.page-id-22 input[type="email"]{
-  border: 1px solid white; 
+.page-id-22 input[type="email"] {
+  border: 1px solid white;
 }
 
-.page-id-22 label{
+.page-id-22 label {
   color: white;
 }
 
 .page-id-22 [type="submit"] {
-background-color: transparent;
-border: 1px solid white;
-font-size: 15px;
-padding: 12px 24px 12px;
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: 15px;
+  padding: 12px 24px 12px;
 }
-
-
-
 
 /* Vores udvalg */
 .page-id-24 #site-content {
@@ -108,9 +105,35 @@ padding: 12px 24px 12px;
   font-size: 15px;
 }
 
+.page-id-24 li {
+  list-style: none;
+  font-family: "DM Serif Display";
+}
+
+.page-id-24 ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.page-id-24 .wc-block-product-categories-list-item {
+  border: solid 2px;
+  margin: 5px;
+  padding: 3px 12px 3px 12px;
+}
+
+.page-id-24 .wc-block-product-categories-list-item:hover {
+  background-color: #d3cad6;
+}
+
 /* Bæredygtighed */
 .page-id-26 #site-content {
   background-color: #f7f4f2;
+}
+
+.page-id-26 .entry-content .alignfull {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Om os */
@@ -142,6 +165,37 @@ padding: 12px 24px 12px;
   background-color: #cad2c5;
 }
 
+.page-id-13 .entry-content .alignfull {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.page-id-13 .wp-block-column .contact-form input {
+  height: 40%;
+}
+
+#contact-form-comment-g13-besked {
+  height: 100px;
+}
+
+:root .has-white-background-color {
+  background-color: #cad2c5;
+  color: black;
+  border: solid 2px black;
+  margin: 5px;
+  padding: 12px 24px 12px;
+  font-size: 15px;
+}
+
+:root .has-white-background-color:hover {
+  background-color: #d3cad6;
+}
+
+.page-id-13 .wp-block-button {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /* Footer  */
 
 .section-inner {
@@ -159,12 +213,12 @@ padding: 12px 24px 12px;
 }
 
 .site-footer {
-  background-color: #D3CAD6;
+  background-color: #d3cad6;
   width: 100%;
   padding: 0;
 }
 
-.site-footer a{
+.site-footer a {
   border-bottom: none;
 }
 
@@ -178,10 +232,37 @@ padding: 12px 24px 12px;
   padding: 5px;
 }
 
-.flower{
+.flower {
   align-self: center;
 }
 
+/* Indkøbskurv  */
+.page-id-174 #site-content {
+  background-color: #f7f4f2;
+}
+
+.woocommerce a.button.alt {
+  background-color: #f7f4f2;
+  color: black;
+  border: solid 2px black;
+  margin: 5px;
+  padding: 12px 24px 12px;
+}
+
+.woocommerce a.button.alt:hover {
+  color: black;
+  background-color: #d3cad6;
+}
+
+tbody > tr:nth-child(odd) {
+  background: #cad2c5;
+}
+
+/* Kategori side  */
+
+.woocommerce a.button {
+  display: none;
+}
 
 @media only screen and (min-width: 600px) {
   .row {
@@ -192,11 +273,11 @@ padding: 12px 24px 12px;
   .social {
     width: 8em;
   }
-  .row{
+  .row {
     padding-top: 10px;
   }
 
-  .column{
+  .column {
     align-self: center;
   }
 }
@@ -207,4 +288,3 @@ padding: 12px 24px 12px;
     padding-right: 200px;
   }
 }
-
