@@ -254,7 +254,7 @@ a {
   background-color: #d3cad6;
 }
 
-tbody > tr:nth-child(odd) {
+.woocommertbody > tr:nth-child(odd) {
   background: #cad2c5;
 }
 
@@ -262,6 +262,17 @@ tbody > tr:nth-child(odd) {
 
 .woocommerce a.button {
   display: none;
+}
+
+.logged-in.admin-bar.wp-custom-logo.theme-hamilton.woocommerce.woocommerce-page.woocommerce-js.show-alt-nav.three-columns-grid.customize-support.cmplz-eu.cmplz-optin.cmplz-status-marketing
+  .section-inner.thin {
+  max-width: 100%;
+}
+
+.logged-in.admin-bar.wp-custom-logo.theme-hamilton.woocommerce.woocommerce-page.woocommerce-js.show-alt-nav.three-columns-grid.customize-support.cmplz-eu.cmplz-optin.cmplz-status-marketing
+  #site-content {
+  background: #f7f4f2;
+  padding-top: 50px;
 }
 
 @media only screen and (min-width: 600px) {
