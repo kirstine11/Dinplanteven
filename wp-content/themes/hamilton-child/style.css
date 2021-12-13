@@ -145,24 +145,43 @@ a {
 }
 .postid-193 #site-content {
   background-color: #f7f4f2;
+  padding: 50px;
 }
 
 .postid-190 #site-content {
   background-color: #f7f4f2;
+  padding: 50px;
 }
 
 .postid-187 #site-content {
   background-color: #f7f4f2;
+  padding: 50px;
 }
 .postid-185 #site-content {
   background-color: #f7f4f2;
+  padding: 50px;
 }
 .postid-183 #site-content {
   background-color: #f7f4f2;
+  padding: 50px;
 }
 .postid-179 #site-content {
   background-color: #f7f4f2;
+  padding: 50px;
 }
+.woocommerce-product-details__short-description {
+  background: #d3cad6;
+}
+
+.woocommerce-Price-amount {
+  color: #123627;
+}
+
+.woocommerce div.product form.cart .variations td,
+.woocommerce div.product form.cart .variations th {
+  background: #d3cad6;
+}
+
 /* Bæredygtighed */
 .page-id-26 #site-content {
   background-color: #f7f4f2;
