@@ -246,6 +246,12 @@ h6.has-background {
   margin-bottom: 0;
 }
 
+.entry-content .alignwide,
+.entry-content .alignfull {
+  margin-bottom: 0;
+  padding-bottom: 30px;
+}
+
 /* Footer  */
 
 .section-inner {
@@ -314,16 +320,18 @@ h6.has-background {
   display: none;
 }
 
-.logged-in.admin-bar.wp-custom-logo.theme-hamilton.woocommerce.woocommerce-page.woocommerce-js.show-alt-nav.three-columns-grid.customize-support.cmplz-eu.cmplz-optin.cmplz-status-marketing
-  .section-inner.thin {
+.page .section-inner.thin {
   max-width: 100%;
 }
 
-.logged-in.admin-bar.wp-custom-logo.theme-hamilton.woocommerce.woocommerce-page.woocommerce-js.show-alt-nav.three-columns-grid.customize-support.cmplz-eu.cmplz-optin.cmplz-status-marketing
-  #site-content {
-  background: #f7f4f2;
-  padding-top: 50px;
+#site-content {
+  background-color: #f7f4f2;
 }
+
+.entry.section-inner.post-0.page.type-page.status-publish.hentry.missing-thumbnail {
+  padding-top: 20px;
+}
+
 /* menubar dropdown */
 .alt-nav > li.menu-item-has-children:after {
   border-top-color: white;
