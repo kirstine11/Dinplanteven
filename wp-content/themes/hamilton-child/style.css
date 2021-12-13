@@ -136,6 +136,19 @@ a {
   margin-bottom: 0;
 }
 
+.page-id-26 .entry-content .alignfull {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2.has-background,
+h3.has-background,
+h4.has-background,
+h5.has-background,
+h6.has-background {
+  padding: 0;
+  padding-top: 50px;
+}
 /* Om os */
 
 .page-id-11 #site-content {
