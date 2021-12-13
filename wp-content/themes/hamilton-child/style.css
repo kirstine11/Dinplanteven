@@ -129,6 +129,39 @@ a {
 
 .woocommerce div.product form.cart .button {
   background-color: #123627;
+  top: 6px;
+}
+
+.woocommerce div.product form.cart .button:hover {
+  background-color: #d3cad6;
+}
+
+.postid-198 #site-content {
+  background-color: #f7f4f2;
+}
+
+.postid-303 #site-content {
+  background-color: #f7f4f2;
+}
+.postid-193 #site-content {
+  background-color: #f7f4f2;
+}
+
+.postid-190 #site-content {
+  background-color: #f7f4f2;
+}
+
+.postid-187 #site-content {
+  background-color: #f7f4f2;
+}
+.postid-185 #site-content {
+  background-color: #f7f4f2;
+}
+.postid-183 #site-content {
+  background-color: #f7f4f2;
+}
+.postid-179 #site-content {
+  background-color: #f7f4f2;
 }
 /* Bæredygtighed */
 .page-id-26 #site-content {
