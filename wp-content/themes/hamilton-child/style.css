@@ -360,6 +360,16 @@ h6.has-background {
   background: #123627;
 }
 
+/* Burgermenu */
+.nav-toggle .bar {
+  background-color: white;
+}
+
+.site-nav.active {
+  background-color: #123627;
+  color: white;
+}
+
 @media only screen and (min-width: 600px) {
   .row {
     display: grid;
