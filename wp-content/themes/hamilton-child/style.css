@@ -126,6 +126,11 @@ a {
   background-color: #d3cad6;
 }
 
+/* Produkter single */
+
+.woocommerce div.product form.cart .button {
+  background-color: #123627;
+}
 /* Bæredygtighed */
 .page-id-26 #site-content {
   background-color: #f7f4f2;
@@ -286,6 +291,14 @@ h6.has-background {
   #site-content {
   background: #f7f4f2;
   padding-top: 50px;
+}
+/* menubar dropdown */
+.alt-nav > li.menu-item-has-children:after {
+  border-top-color: white;
+}
+
+.alt-nav ul {
+  background: #123627;
 }
 
 @media only screen and (min-width: 600px) {
