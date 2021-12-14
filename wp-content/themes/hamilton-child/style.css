@@ -48,6 +48,14 @@ a {
   height: 10rem;
 }
 
+.site-nav .menus > ul + ul {
+  display: none;
+}
+
+.site-nav ul:last-child a:hover,
+.site-nav ul:last-child .current-menu-item > a {
+  border-bottom-color: white;
+}
 /* Forside  */
 
 .page-id-22 #site-content {
@@ -111,8 +119,12 @@ a {
 }
 
 .page-id-24 ul {
-  display: flex;
   margin: 0;
+}
+
+.entry.section-inner.post-0.page.type-page.status-publish.hentry.missing-thumbnail
+  ul {
+  margin-bottom: 0;
 }
 
 .page-id-24 .wc-block-product-categories-list-item {
@@ -371,12 +383,17 @@ h6.has-background {
 }
 
 .site-nav a:hover {
-  border: none;
-  border-style: none;
-  color: #d3cad6;
+  border-bottom: 2px solid white;
 }
 
+.site-nav ul:first-child a:hover,
+.site-nav ul:first-child .current-menu-item > a {
+  border-bottom-color: white;
+}
 
+.site-nav {
+  padding-top: 1px;
+}
 @keyframes fadeIn {
   0% {
     opacity: 0%;
@@ -407,7 +424,6 @@ h6.has-background {
   animation-name: zoom;
   animation-duration: 4s;
 }
-
 
 @media only screen and (min-width: 600px) {
   .row {
