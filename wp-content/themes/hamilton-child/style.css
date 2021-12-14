@@ -58,6 +58,12 @@ a {
 }
 /* Forside  */
 
+.page-id-22 [type="submit"]:hover{
+  background-color: #d3cad6;
+  cursor: pointer;
+  color: black;
+}
+
 .page-id-22 #site-content {
   background-color: #f7f4f2;
 }
@@ -441,6 +447,15 @@ h6.has-background {
   .column {
     align-self: center;
   }
+
+}
+
+@media only screen and (min-width: 1000px) {
+.stempel {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 25rem;
+}
 }
 
 @media only screen and (min-width: 1500px) {
